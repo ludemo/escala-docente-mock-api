@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "full_name": "María Quispe",
+    "status": "active",
+    "expiration_date": "2025-12-31",
+    "contact": {
+      "phone_number": "+51987654321",
+      "email": "maria.quispe@example.com"
+    },
+    "categories": [
+      {
+        "id": 101,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 1, "name": "initial" },
+        "specialty": null
+      },
+      {
+        "id": 102,
+        "modality": { "id": 2, "name": "EBA" },
+        "level": null,
+        "specialty": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "full_name": "Luis Perez",
+    "status": "expired",
+    "expiration_date": "2024-10-01",
+    "contact": {
+      "phone_number": "+51976543210",
+      "email": "luis.perez@example.com"
+    },
+    "categories": [
+      {
+        "id": 201,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 2, "name": "primary" },
+        "specialty": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "full_name": "Ana Lopez",
+    "status": "active",
+    "expiration_date": "2026-01-01",
+    "contact": {
+      "phone_number": "+51991234567",
+      "email": "ana.lopez@example.com"
+    },
+    "categories": [
+      {
+        "id": 301,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secondary" },
+        "specialty": { "id": 4, "name": "Comunicación" }
+      },
+      {
+        "id": 302,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secondary" },
+        "specialty": { "id": 3, "name": "Ciencias Sociales" }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "full_name": "Carlos Ramos",
+    "status": "active",
+    "expiration_date": "2025-11-15",
+    "contact": {
+      "phone_number": "+51987651234",
+      "email": "carlos.ramos@example.com"
+    },
+    "categories": [
+      {
+        "id": 401,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 1, "name": "initial" },
+        "specialty": null
+      },
+      {
+        "id": 402,
+        "modality": { "id": 3, "name": "EBE" },
+        "level": null,
+        "specialty": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "full_name": "Lucia Gutierrez",
+    "status": "expired",
+    "expiration_date": "2024-08-20",
+    "contact": {
+      "phone_number": "+51987654322",
+      "email": "lucia.gutierrez@example.com"
+    },
+    "categories": [
+      {
+        "id": 501,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secondary" },
+        "specialty": { "id": 10, "name": "Matemática" }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "full_name": "Jorge Torres",
+    "status": "active",
+    "expiration_date": "2025-07-01",
+    "contact": {
+      "phone_number": "+51983456721",
+      "email": "jorge.torres@example.com"
+    },
+    "categories": [
+      {
+        "id": 601,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 2, "name": "primary" },
+        "specialty": null
+      },
+      {
+        "id": 602,
+        "modality": { "id": 2, "name": "EBA" },
+        "level": null,
+        "specialty": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "full_name": "Carmen Salas",
+    "status": "active",
+    "expiration_date": "2026-03-10",
+    "contact": {
+      "phone_number": "+51991234568",
+      "email": "carmen.salas@example.com"
+    },
+    "categories": [
+      {
+        "id": 701,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secondary" },
+        "specialty": { "id": 1, "name": "Arte y Cultura" }
+      },
+      {
+        "id": 702,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secondary" },
+        "specialty": { "id": 6, "name": "Educación Física" }
+      },
+      {
+        "id": 703,
+        "modality": { "id": 3, "name": "EBE" },
+        "level": null,
+        "specialty": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "full_name": "Pedro Alvarez",
+    "status": "expired",
+    "expiration_date": "2024-09-05",
+    "contact": {
+      "phone_number": "+51984567213",
+      "email": "pedro.alvarez@example.com"
+    },
+    "categories": [
+      {
+        "id": 801,
+        "modality": { "id": 2, "name": "EBA" },
+        "level": null,
+        "specialty": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "full_name": "Juana Flores",
+    "status": "active",
+    "expiration_date": "2025-12-12",
+    "contact": {
+      "phone_number": "+51982345671",
+      "email": "juana.flores@example.com"
+    },
+    "categories": [
+      {
+        "id": 901,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 1, "name": "initial" },
+        "specialty": null
+      },
+      {
+        "id": 902,
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 2, "name": "primary" },
+        "specialty": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "full_name": "Ricardo Medina",
+    "status": "expired",
+    "expiration_date": "2024-07-01",
+    "contact": {
+      "phone_number": "+51987654123",
+      "email": "ricardo.medina@example.com"
+    },
+    "categories": [
+      {
+        "id": 1001,
+        "modality": { "id": 3, "name": "EBE" },
+        "level": null,
+        "specialty": null
+      }
+    ]
+  }
+]
