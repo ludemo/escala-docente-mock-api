@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const teachers = require('./teachers.json'); // Ajusta la ruta si es necesario
+const examSimulationRoutes = require('./exam-simulation.route');
+router.use('/exam-simulation', examSimulationRoutes);
 
 router.get('/', (req, res) => {
   // Parámetros de paginación desde la URL

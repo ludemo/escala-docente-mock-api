@@ -1,0 +1,224 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "type_question": "INDIVIDUAL",
+      "category_filter": {
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secundaria" },
+        "specialty": { "id": 5, "name": "ciencia_y_tecnologia" },
+        "year": { "id": 2025, "name": "2025" }
+      },
+      "statement": [
+        { "type": "text", "value": "¿Cuál es la capital de Francia?" }
+      ],
+      "alternatives": [
+        { "id": 1, "text": "Madrid", "correct": false },
+        { "id": 2, "text": "París", "correct": true },
+        { "id": 3, "text": "Roma", "correct": false }
+      ],
+      "justification": [
+        { "type": "text", "value": "París es la capital de Francia." }
+      ],
+      "user_answer": {
+        "selected_alternative_id": 1,
+        "status": "incorrect"
+      }
+    },
+    {
+      "id": 2,
+      "type_question": "COMMON",
+      "category_filter": {
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secundaria" },
+        "specialty": { "id": 5, "name": "ciencia_y_tecnologia" },
+        "year": { "id": 2025, "name": "2025" }
+      },
+      "shared_statement": [
+        { "type": "text", "value": "Lee el siguiente texto y responde las preguntas." },
+        { "type": "text", "value": "La energía solar es una fuente renovable..." },
+        { "type": "image", "value": "https://picsum.photos/id/237/200/300" }
+      ],
+      "statement": [
+        { "type": "text", "value": "¿Qué tipo de energía es la solar?" }
+      ],
+      "alternatives": [
+        { "id": 1, "text": "No renovable", "correct": false },
+        { "id": 2, "text": "Renovable", "correct": true },
+        { "id": 3, "text": "Fósil", "correct": false }
+      ],
+      "justification": [
+        { "type": "text", "value": "La solar es una energía renovable porque se regenera naturalmente." }
+      ],
+      "user_answer": {
+        "selected_alternative_id": 2,
+        "status": "correct"
+      }
+    },
+    {
+      "id": 3,
+      "type_question": "INDIVIDUAL",
+      "category_filter": {
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secundaria" },
+        "specialty": { "id": 2, "name": "matematica" },
+        "year": { "id": 2025, "name": "2025" }
+      },
+      "statement": [
+        { "type": "text", "value": "Observa la imagen y responde: ¿Cuál es el área del triángulo?" },
+        { "type": "image", "value": "https://picsum.photos/id/237/200/300" }
+      ],
+      "alternatives": [
+        { "id": 1, "text": "15 cm²", "correct": false },
+        { "id": 2, "text": "30 cm²", "correct": true },
+        { "id": 3, "text": "45 cm²", "correct": false }
+      ],
+      "justification": [
+        { "type": "text", "value": "El área se calcula con (base x altura) / 2." }
+      ],
+      "user_answer": {
+        "selected_alternative_id": null,
+        "status": "unanswered"
+      }
+    },
+    {
+      "id": 4,
+      "type_question": "COMMON",
+      "category_filter": {
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 2, "name": "primaria" },
+        "specialty": { "id": 3, "name": "comunicacion" },
+        "year": { "id": 2025, "name": "2025" }
+      },
+      "shared_statement": [
+        { "type": "text", "value": "Lee atentamente el siguiente poema y responde." },
+        { "type": "text", "value": "En el campo verde, el sol brilla fuerte..." }
+      ],
+      "statement": [
+        { "type": "text", "value": "¿Dónde ocurre la acción del poema?" }
+      ],
+      "alternatives": [
+        { "id": 1, "text": "En la ciudad", "correct": false },
+        { "id": 2, "text": "En la playa", "correct": false },
+        { "id": 3, "text": "En el campo", "correct": true }
+      ],
+      "justification": [
+        { "type": "text", "value": "El poema menciona 'campo verde' como el escenario." }
+      ],
+      "user_answer": {
+        "selected_alternative_id": 3,
+        "status": "correct"
+      }
+    },
+    {
+      "id": 5,
+      "type_question": "INDIVIDUAL",
+      "category_filter": {
+        "modality": { "id": 2, "name": "EBE" },
+        "level": { "id": 1, "name": "inicial" },
+        "specialty": { "id": 6, "name": "arte" },
+        "year": { "id": 2025, "name": "2025" }
+      },
+      "statement": [
+        { "type": "text", "value": "¿Qué color resulta de mezclar azul y amarillo?" }
+      ],
+      "alternatives": [
+        { "id": 1, "text": "Verde", "correct": true },
+        { "id": 2, "text": "Rojo", "correct": false },
+        { "id": 3, "text": "Marrón", "correct": false }
+      ],
+      "justification": [
+        { "type": "text", "value": "Azul + Amarillo = Verde." },
+        { "type": "image", "value": "https://picsum.photos/id/237/200/300" }
+      ],
+      "user_answer": {
+        "selected_alternative_id": 1,
+        "status": "correct"
+      }
+    },
+    {
+      "id": 6,
+      "type_question": "COMMON",
+      "category_filter": {
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secundaria" },
+        "specialty": { "id": 4, "name": "historia" },
+        "year": { "id": 2025, "name": "2025" }
+      },
+      "shared_statement": [
+        { "type": "text", "value": "Observa el siguiente mapa del imperio Inca." },
+        { "type": "image", "value": "https://picsum.photos/id/237/200/300" }
+      ],
+      "statement": [
+        { "type": "text", "value": "¿Qué ciudad fue la capital del Tahuantinsuyo?" }
+      ],
+      "alternatives": [
+        { "id": 1, "text": "Lima", "correct": false },
+        { "id": 2, "text": "Cusco", "correct": true },
+        { "id": 3, "text": "Arequipa", "correct": false }
+      ],
+      "justification": [
+        { "type": "text", "value": "Cusco fue la capital del Imperio Inca." }
+      ],
+      "user_answer": {
+        "selected_alternative_id": 2,
+        "status": "correct"
+      }
+    },
+    {
+      "id": 7,
+      "type_question": "INDIVIDUAL",
+      "category_filter": {
+        "modality": { "id": 3, "name": "CETPRO" },
+        "level": { "id": 3, "name": "secundaria" },
+        "specialty": { "id": 7, "name": "computacion" },
+        "year": { "id": 2025, "name": "2025" }
+      },
+      "statement": [
+        { "type": "text", "value": "¿Qué significa HTML?" }
+      ],
+      "alternatives": [
+        { "id": 1, "text": "HighText Machine Language", "correct": false },
+        { "id": 2, "text": "HyperText Markup Language", "correct": true },
+        { "id": 3, "text": "Hyperlinks and Text Markup Language", "correct": false }
+      ],
+      "justification": [
+        { "type": "text", "value": "HTML significa HyperText Markup Language." }
+      ],
+      "user_answer": {
+        "selected_alternative_id": 2,
+        "status": "correct"
+      }
+    },
+    {
+      "id": 8,
+      "type_question": "COMMON",
+      "category_filter": {
+        "modality": { "id": 1, "name": "EBR" },
+        "level": { "id": 3, "name": "secundaria" },
+        "specialty": { "id": 5, "name": "ciencia_y_tecnologia" },
+        "year": { "id": 2025, "name": "2025" }
+      },
+      "shared_statement": [
+        { "type": "text", "value": "Observa el siguiente gráfico sobre el ciclo del agua." },
+        { "type": "image", "value": "https://picsum.photos/id/237/200/300" }
+      ],
+      "statement": [
+        { "type": "text", "value": "¿Qué proceso se representa cuando el agua pasa de líquido a vapor?" }
+      ],
+      "alternatives": [
+        { "id": 1, "text": "Condensación", "correct": false },
+        { "id": 2, "text": "Evaporación", "correct": true },
+        { "id": 3, "text": "Precipitación", "correct": false }
+      ],
+      "justification": [
+        { "type": "text", "value": "La evaporación es el paso de líquido a vapor." }
+      ],
+      "user_answer": {
+        "selected_alternative_id": 2,
+        "status": "correct"
+      }
+    }
+  ]
+}
